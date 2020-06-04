@@ -15,17 +15,9 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.indigo[900],
       ),
       body: Center(
-        child: Text(
-          'Hello conard',
-          style: TextStyle(
-            fontSize: 20.0,
-            fontWeight: FontWeight.bold,
-            letterSpacing: 2.0,
-            color: Colors.grey[600],
-            fontFamily: 'IndieFlower',
-          ),
+       child: Image.asset('assets/space1.jpg'),
         ),
-      ),
+
       floatingActionButton: FloatingActionButton(
         onPressed: (){},
         child: Text('Click'),
